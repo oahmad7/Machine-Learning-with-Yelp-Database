@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.org/simple"
+
+[dev-packages]
+
+[packages]
+jupyter = "*"
+pylint = "*"
+scikit-learn = ">=0.20"
+pandas = "*"
+tabulate = "*"
+
+[requires]
+python_version = "3.7"
